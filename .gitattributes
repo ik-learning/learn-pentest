@@ -1,0 +1,7 @@
+# force answers file to have Unix-style line endings
+*/kali.conf text eol=lf
+
+# LF line endings for scripts and configs
+dotfiles/** eol=lf
+bin/* eol=lf
+*.sh text eol=lf
